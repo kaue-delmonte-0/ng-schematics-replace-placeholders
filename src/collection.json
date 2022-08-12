@@ -1,0 +1,26 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "replace-placeholders": {
+      "description": "A blank schematic.",
+      "factory": "./replace-placeholders/index#main",
+      "schema": "./schema.json"
+    },
+    "replace-filename-placeholders": {
+      "description": "A blank schematic.",
+      "factory": "./replace-placeholders/index#replaceFilenamePlaceholders"
+    },
+    "replace-dirname-placeholders": {
+      "description": "A blank schematic.",
+      "factory": "./replace-placeholders/index#replaceDirnamePlaceholders"
+    },
+    "replace-content-placeholders": {
+      "description": "A blank schematic.",
+      "factory": "./replace-placeholders/index#replaceContentPlaceholders"
+    },
+    "remove-empty-directories": {
+      "description": "A blank schematic.",
+      "factory": "./replace-placeholders/index#removeEmptyDirectories"
+    }
+  }
+}
